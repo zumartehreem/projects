@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+/* .weatherApp{
+    background-color: rgb(227, 238, 244);
+    max-width: 500px;
+    margin: 50px auto;
+    color: rgba(0, 0, 0, 0.912);
+    padding: 30px;
+    border-radius: 15px;
+
+} */
+
+.weatherApp {
+  background: linear-gradient(135deg, #3f2b96 0%, #a8c0ff 40%, #f0e7db 100%);
+  border-radius: 20px;
+  padding: 30px;
+  width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  transition:  0.8s ease-in-out, color 0.8s ease-in-out;
+}
+
+.searchForm{
+    display: flex;
+    align-items: center;
+}
+input[type="text"] {
+flex:1;
+padding: 20px;
+border:2px solid rgb(180, 169, 169);
+border-radius: 15px;
+font-size: 1rem;
+
+
+}
+.searchBtn{
+
+    background-color: rgb(95, 174, 220);
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    gap:10px;
+    margin-left: 15px;
+}
+.searchButn{
+    font-size: 20px;
+}
+.cityDateSection{
+
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px
+}
+.cityDateSection .city{
+    font-size: 2rem;
+    opacity: 0.9;
+}
+.cityDateSection .date{
+
+    background-color: hsl(203, 56%, 62%);
+    padding: 15px;
+    border-radius: 15px;
+}
+.tempInfo{
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tempInfo .temp{
+
+    font-size: 7rem;
+}
+.tempInfo .description{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px
+}
+.tempInfo .description span{
+font-size: 1.5rem;
+
+}
+.additionalInfo{
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.additionalInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.additionalInfo > div {
+  background: rgba(255, 255, 255, 0.15); 
+  padding: 12px 15px;
+  border-radius: 12px;
+  flex: 1;
+  margin: 0 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.windInfo {
+    background-color: rgb(140, 201, 230);
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+padding: 30px, 20px;
+padding-bottom: 10px;
+padding-top: 10px;
+border-radius: 15px;
+    gap:15px
+
+
+}
+ .humidityInfo{
+
+      background-color:rgb(140, 201, 230) ;
+      
+      
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+padding: 30px, 20px;
+padding-bottom: 10px;
+padding-right: 10px;
+padding-top: 10px;
+border-radius: 15px;
+    gap:15px
+
+}
+ .visibilityInfo{
+
+      background-color: rgb(140, 201, 230);
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+padding: 30px, 20px;
+padding-bottom: 10px;
+padding-top: 10px;
+border-radius: 15px;
+    gap:15px
+
+ }
